@@ -1,10 +1,11 @@
 var http = require('http');
 var Greeting = require('./Greeting');
 
-// instantiate a Greeting object with default language set to 'english'
 var greeting = new Greeting('english');
 
 function onRequest (request, response) {
+
+  console.log('request to url ', request.url);
 
   var urlParts = request.url.split('/');
 
