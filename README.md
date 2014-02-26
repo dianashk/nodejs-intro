@@ -1,6 +1,6 @@
 # nodejs-intro
 
-## step1
+## step2
 
 Http server that supports greetings in English/Russian/Spanish/Chinese
 
