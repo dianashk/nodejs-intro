@@ -15,8 +15,8 @@ Basic http server example. Responds to any command with 'Hey World!'
 Http server that supports greetings in English/Russian/Spanish/Chinese
 
 ### nextTick
-nextTick.js - Example of when using process.nextTick is appropriate
-compute.js - Example of a recursive function starving I/O if setImmediate isn't used
+  * nextTick.js - Example of when using process.nextTick is appropriate
+  * compute.js - Example of a recursive function starving I/O if setImmediate isn't used
 
 ### eventEmitter
 News broadcast class implemented as an EventEmitter
